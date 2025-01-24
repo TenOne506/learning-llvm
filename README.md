@@ -13,3 +13,9 @@ cd build
 cmake ..
 make
 ```
+并且尝试使用`xmake`来构建，在`xmake`分支下，包含了`xmake`的构建脚本。
+
+只需在根目录下执行
+```bash
+xmake
+```
