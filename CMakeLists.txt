@@ -1,6 +1,7 @@
 # 最小 CMake 版本要求
 cmake_minimum_required(VERSION 3.10)
-
+set(CMAKE_C_COMPILER   "clang")
+set(CMAKE_CXX_COMPILER "clang++")
 # 项目名称和版本
 project(MyProject VERSION 1.0)
 # 指定clang编译
