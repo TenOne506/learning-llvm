@@ -1,7 +1,7 @@
 # 忽略 build 文件夹
-/build/
+build/
 
 # 忽略 .vscode 文件夹及其内容
-/.vscode/
+.vscode/
 
 .xmake/
