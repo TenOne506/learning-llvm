@@ -19,3 +19,6 @@ add_subdirectory(LLVMReturn)
 add_subdirectory(LLVMFunctionArgs)
 
 add_subdirectory(LLVMArithmetic)
+
+add_subdirectory(LLVMIfelse)
+add_subdirectory(LLVMIfelsephi)
