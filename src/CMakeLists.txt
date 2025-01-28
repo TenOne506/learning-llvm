@@ -1,3 +1,5 @@
+set(LLVM_DIR "/usr/local/include/llvm/" 
+CACHE PATH "Path to custom LLVM CMake config")
 find_package(LLVM REQUIRED CONFIG)
 message(STATUS "Found LLVM ${LLVM_PACKAGE_VERSION}")
 # 添加 LLVMFunction 子目录
