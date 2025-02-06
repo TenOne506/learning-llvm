@@ -19,3 +19,7 @@ make
 ```bash
 xmake
 ```
+
+
+
+其中Pass阶段代码要放进`llvm-project`代码中进行编译，具体文件夹为`llvm/lib/Transformer`中，具体方法阅读Pass中的`README`文档。

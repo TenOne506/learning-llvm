@@ -98,7 +98,7 @@ define_target("FunctionArgs", "src/LLVMFunctionArgs")
 define_target("Arithmetic", "src/LLVMArithmetic")
 define_target("Ifelse", "src/LLVMIfelse")
 define_target("Ifelsephi", "src/LLVMIfelsephi")
-
+define_target("Forloop","src/LLVMForLoop")
 
 
 
@@ -167,3 +167,14 @@ target("simplexer")
 
 target("simpleparser")
     add_files("src/SimpleParser/*.cpp")
+
+
+target("simpleanalyz")
+    add_files("src/SimpleAnalyz/*.cpp")
+
+target("irgen")
+    add_files("src/IRGenerator/*.cpp")
+
+target("compiler")
+    add_files("src/Minicompiler/*.cpp")
+    
